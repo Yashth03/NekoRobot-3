@@ -38,11 +38,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================Neko====================== """
-file1 = "https://telegra.ph/file/cd7aad1ea310312886358.png"
-file2 = "https://telegra.ph/file/48a97320463caa61dba3d.png"
-file3 = "https://telegra.ph/file/2295a7207495eccbbe298.png"
-file4 = "https://telegra.ph/file/67e0bf231a97cd2e364ea.png"
-file5 = "https://telegra.ph/file/990684ecd3d119fa9fec6.png"
+file1 = "https://te.legra.ph/file/d5cbfeab7062331c9660b.mp4"
+file2 = "https://te.legra.ph/file/60b27ad10ad0d631fbaae.mp4"
+file3 = "https://te.legra.ph/file/02e30e8adbe2dca2ae822.mp4"
+file4 = "https://te.legra.ph/file/1eedcc9aea9b9f62ffd80.mp4"
+file5 = "https://te.legra.ph/file/6ae235c452cc088d5fb7a.mp4"
 """ =======================Neko====================== """
 
 START_TIME = datetime.utcnow()
@@ -78,12 +78,12 @@ async def hmm(yes):
     NekoX += f"**♡ Python-telegram-bot Version :** `{ptb}`\n\n"
     NekoX += f"**♡ Telethon Version :** `{tlhver}`\n\n"
     NekoX += f"**♡ Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**♡ My Master :** [LovelyPrince](https://t.me/Its_IZ_PRINCE_xD) "
+    NekoX += "**♡ My Master :** [Uchiha Madara](https://t.me/Ghost0fUch1ha) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [
         [
             Button.url("【► Help ◄】", f"https://t.me/{BOT_USERNAME}?start=help"),
-            Button.url("【► Support ◄】", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("【► Support ◄】", f"https://t.me/WoFBotsSupport"),
         ]
     ]
     on = await neko.send_file(yes.chat_id, file=file2, caption=NekoX, buttons=BUTTON)
