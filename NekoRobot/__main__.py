@@ -122,8 +122,8 @@ NEKO_STICKERS = (
 
 PM_START_TEXT = """
 ────「 [{}](https://te.legra.ph/file/409889de1d530bc7f55fe.jpg) 」────
-*Hola! {},*
-*Ara!! Ara!!, Don't Touch Me Without My Permission!*
+*Hello! {},*
+I am Mai San, your kawai waifu./nI specialize in managing your groups./nSo what are you waiting for, add me in your group so I can take care of you.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
