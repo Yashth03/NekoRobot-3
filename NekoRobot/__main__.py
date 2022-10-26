@@ -120,7 +120,7 @@ I am Mai San, your kawai waifu.\nI specialize in managing your groups.\nSo what 
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Guidelines Button Below To Know My Abilities ××
+➛ Use the links below to know more about me.
 """
 
 buttons = [
