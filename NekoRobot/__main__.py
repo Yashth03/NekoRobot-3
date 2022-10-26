@@ -141,7 +141,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
+            text="🚑 Support", url="https://t.me/WoFBotsSupport"
         )
     ],
 ]
