@@ -121,9 +121,9 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/d80bb89c4aca2a87419b7.jpg) 」────
+────「 [{}](https://te.legra.ph/file/409889de1d530bc7f55fe.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+*Ara!! Ara!!, Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
@@ -139,18 +139,10 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
-        ),
-    ],
-    [
+        InlineKeyboardButton(text="📓 Help", callback_data="help_back"),
         InlineKeyboardButton(
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
-        ),
-        InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
-        ),
+        )
     ],
 ]
 
