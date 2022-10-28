@@ -67,10 +67,10 @@ ENUM_FUNC_MAP = {
 
 VERIFIED_USER_WAITLIST = {}
 
-NEKO_IMG = "https://telegra.ph/file/e321b823276a3c54c1dce.mp4"
-NEKO = "https://telegra.ph/file/be5388d1c407d5fe0ca14.jpg"
-NEKO_VID = "https://telegra.ph/file/cf5a6cad607d0172809cf.mp4"
-WAIFUS_IMG = "https://telegra.ph/file/e9284f19f009784e24043.jpg"
+NEKO_IMG = "https://telegra.ph/file/9a3a50bd86634b03907d1.mp4"
+NEKO = "https://telegra.ph/file/9a3a50bd86634b03907d1.mp4"
+NEKO_VID = "https://telegra.ph/file/9a3a50bd86634b03907d1.mp4"
+WAIFUS_IMG = "https://telegra.ph/file/9a3a50bd86634b03907d1.mp4"
 
 
 # do not async
@@ -189,7 +189,7 @@ def new_member(update: Update, context: CallbackContext):
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_video(
                     NEKO_IMG,
-                    caption="Oh, Genos? Let's get this moving.",
+                    caption="Hello! My master.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
